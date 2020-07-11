@@ -9,18 +9,30 @@
     <h1>Tic Tac Toe</h1>
 
     <div class="board">
-      <div class="grid"></div>
-      <div class="grid"></div>
-      <div class="grid"></div>
-      <div class="grid"></div>
-      <div class="grid"></div>
-      <div class="grid"></div>
-      <div class="grid"></div>
-      <div class="grid"></div>
-      <div class="grid"></div>
+      <!-- value= represents the position # of each square -->
+      <div class="square" value="0"></div>
+      <div class="square" value="1"></div>
+      <div class="square" value="2"></div>
+      <div class="square" value="3"></div>
+      <div class="square" value="4"></div>
+      <div class="square" value="5"></div>
+      <div class="square" value="6"></div>
+      <div class="square" value="7"></div>
+      <div class="square" value="8"></div>
     </div>
 
-    <button>Reset</button>
+    <div class="inputs">
+      <h4>Enter player names here first!</h4>
+      <input type="text" class="input input-p1" placeholder="Player 1 (X)" />
+      <input type="text" class="input input-p2" placeholder="Player 2 (O)" />
+    </div>
+
+    <button class="btns">
+      <button class="btn-start">Start</button>
+      <button class="btn-reset">Reset</button>
+    </button>
+
+    <div class="game-mssg"></div>
   </body>
   <script src="script.js"></script>
 </html>
